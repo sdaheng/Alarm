@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EFFF21014DC3EEE00F15F67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFF20F14DC3EEE00F15F67 /* UIKit.framework */; };
+		6EFFF21214DC3EEE00F15F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFF21114DC3EEE00F15F67 /* Foundation.framework */; };
+		6EFFF21414DC3EEE00F15F67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFF21314DC3EEE00F15F67 /* CoreGraphics.framework */; };
+		6EFFF21A14DC3EEE00F15F67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF21814DC3EEE00F15F67 /* InfoPlist.strings */; };
+		6EFFF21C14DC3EEE00F15F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF21B14DC3EEE00F15F67 /* main.m */; };
+		6EFFF22014DC3EEE00F15F67 /* AlarmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF21F14DC3EEE00F15F67 /* AlarmAppDelegate.m */; };
+		6EFFF22314DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF22114DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard */; };
+		6EFFF22614DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF22414DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard */; };
+		6EFFF22914DC3EEE00F15F67 /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF22814DC3EEE00F15F67 /* AlarmViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EFFF20B14DC3EEE00F15F67 /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFFF20F14DC3EEE00F15F67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EFFF21114DC3EEE00F15F67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EFFF21314DC3EEE00F15F67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EFFF21714DC3EEE00F15F67 /* Alarm-Info.plist */ = {isa = PBXFileReference; path = "Alarm-Info.plist"; sourceTree = "<group>"; };
+		6EFFF21914DC3EEE00F15F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EFFF21B14DC3EEE00F15F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EFFF21D14DC3EEE00F15F67 /* Alarm-Prefix.pch */ = {isa = PBXFileReference; path = "Alarm-Prefix.pch"; sourceTree = "<group>"; };
+		6EFFF21E14DC3EEE00F15F67 /* AlarmAppDelegate.h */ = {isa = PBXFileReference; path = AlarmAppDelegate.h; sourceTree = "<group>"; };
+		6EFFF21F14DC3EEE00F15F67 /* AlarmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmAppDelegate.m; sourceTree = "<group>"; };
+		6EFFF22214DC3EEE00F15F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6EFFF22514DC3EEE00F15F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6EFFF22714DC3EEE00F15F67 /* AlarmViewController.h */ = {isa = PBXFileReference; path = AlarmViewController.h; sourceTree = "<group>"; };
+		6EFFF22814DC3EEE00F15F67 /* AlarmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EFFF20814DC3EEE00F15F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFFF21014DC3EEE00F15F67 /* UIKit.framework in Frameworks */,
+				6EFFF21214DC3EEE00F15F67 /* Foundation.framework in Frameworks */,
+				6EFFF21414DC3EEE00F15F67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EFFF20014DC3EED00F15F67 = {
+			isa = PBXGroup;
+			children = (
+				6EFFF21514DC3EEE00F15F67 /* Alarm */,
+				6EFFF20E14DC3EEE00F15F67 /* Frameworks */,
+				6EFFF20C14DC3EEE00F15F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EFFF20C14DC3EEE00F15F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EFFF20B14DC3EEE00F15F67 /* Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EFFF20E14DC3EEE00F15F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EFFF20F14DC3EEE00F15F67 /* UIKit.framework */,
+				6EFFF21114DC3EEE00F15F67 /* Foundation.framework */,
+				6EFFF21314DC3EEE00F15F67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFFF21514DC3EEE00F15F67 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				6EFFF21E14DC3EEE00F15F67 /* AlarmAppDelegate.h */,
+				6EFFF21F14DC3EEE00F15F67 /* AlarmAppDelegate.m */,
+				6EFFF22114DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard */,
+				6EFFF22414DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard */,
+				6EFFF22714DC3EEE00F15F67 /* AlarmViewController.h */,
+				6EFFF22814DC3EEE00F15F67 /* AlarmViewController.m */,
+				6EFFF21614DC3EEE00F15F67 /* Supporting Files */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		6EFFF21614DC3EEE00F15F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFFF21714DC3EEE00F15F67 /* Alarm-Info.plist */,
+				6EFFF21814DC3EEE00F15F67 /* InfoPlist.strings */,
+				6EFFF21B14DC3EEE00F15F67 /* main.m */,
+				6EFFF21D14DC3EEE00F15F67 /* Alarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EFFF20A14DC3EEE00F15F67 /* Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFFF22C14DC3EEE00F15F67 /* Build configuration list for PBXNativeTarget "Alarm" */;
+			buildPhases = (
+				6EFFF20714DC3EEE00F15F67 /* Sources */,
+				6EFFF20814DC3EEE00F15F67 /* Frameworks */,
+				6EFFF20914DC3EEE00F15F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alarm;
+			productName = Alarm;
+			productReference = 6EFFF20B14DC3EEE00F15F67 /* Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EFFF20214DC3EED00F15F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6EFFF20514DC3EED00F15F67 /* Build configuration list for PBXProject "Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EFFF20014DC3EED00F15F67;
+			productRefGroup = 6EFFF20C14DC3EEE00F15F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EFFF20A14DC3EEE00F15F67 /* Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EFFF20914DC3EEE00F15F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFFF21A14DC3EEE00F15F67 /* InfoPlist.strings in Resources */,
+				6EFFF22314DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6EFFF22614DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EFFF20714DC3EEE00F15F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFFF21C14DC3EEE00F15F67 /* main.m in Sources */,
+				6EFFF22014DC3EEE00F15F67 /* AlarmAppDelegate.m in Sources */,
+				6EFFF22914DC3EEE00F15F67 /* AlarmViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EFFF21814DC3EEE00F15F67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFFF21914DC3EEE00F15F67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EFFF22114DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFFF22214DC3EEE00F15F67 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6EFFF22414DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFFF22514DC3EEE00F15F67 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EFFF22A14DC3EEE00F15F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EFFF22B14DC3EEE00F15F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EFFF22D14DC3EEE00F15F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alarm/Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Alarm/Alarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EFFF22E14DC3EEE00F15F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alarm/Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Alarm/Alarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EFFF20514DC3EED00F15F67 /* Build configuration list for PBXProject "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFFF22A14DC3EEE00F15F67 /* Debug */,
+				6EFFF22B14DC3EEE00F15F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFFF22C14DC3EEE00F15F67 /* Build configuration list for PBXNativeTarget "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFFF22D14DC3EEE00F15F67 /* Debug */,
+				6EFFF22E14DC3EEE00F15F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EFFF20214DC3EED00F15F67 /* Project object */;
+}
