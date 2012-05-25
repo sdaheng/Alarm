@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E4C77CA156D3C8500C28637 /* TimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C77C9156D3C8500C28637 /* TimeView.m */; };
+		6EB7C0A21543F40200DD3A9D /* SQL_Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7C0A11543F40200DD3A9D /* SQL_Service.m */; };
+		6EB7C0A91544248800DD3A9D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB7C0A71544246600DD3A9D /* libsqlite3.dylib */; };
 		6EFFF21014DC3EEE00F15F67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFF20F14DC3EEE00F15F67 /* UIKit.framework */; };
 		6EFFF21214DC3EEE00F15F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFF21114DC3EEE00F15F67 /* Foundation.framework */; };
 		6EFFF21414DC3EEE00F15F67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFF21314DC3EEE00F15F67 /* CoreGraphics.framework */; };
@@ -16,23 +19,58 @@
 		6EFFF22314DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF22114DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard */; };
 		6EFFF22614DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF22414DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard */; };
 		6EFFF22914DC3EEE00F15F67 /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF22814DC3EEE00F15F67 /* AlarmViewController.m */; };
+		6EFFF23014DC427800F15F67 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF22F14DC427800F15F67 /* clock.png */; };
+		6EFFF23214DC42A300F15F67 /* wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF23114DC42A300F15F67 /* wrench.png */; };
+		6EFFF23414DC42DA00F15F67 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF23314DC42DA00F15F67 /* calendar.png */; };
+		6EFFF23614DC449800F15F67 /* 3383574_113150433321_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF23514DC449800F15F67 /* 3383574_113150433321_2.png */; };
+		6EFFF23914DC46C100F15F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF23814DC46C100F15F67 /* ViewController.m */; };
+		6EFFF23C14DC46E200F15F67 /* Total_ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF23B14DC46E200F15F67 /* Total_ClockViewController.m */; };
+		6EFFF23F14DC46F500F15F67 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF23E14DC46F500F15F67 /* SettingViewController.m */; };
+		6EFFF24314DC472200F15F67 /* RepeatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF24214DC472200F15F67 /* RepeatTableViewController.m */; };
+		6EFFF24614DC473600F15F67 /* SoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF24514DC473600F15F67 /* SoundTableViewController.m */; };
+		6EFFF24914DC474A00F15F67 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF24814DC474A00F15F67 /* LabelViewController.m */; };
+		6EFFF24C14DC47D500F15F67 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFFF24B14DC47D500F15F67 /* DatePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E4C77C8156D3C8500C28637 /* TimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeView.h; sourceTree = "<group>"; };
+		6E4C77C9156D3C8500C28637 /* TimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeView.m; sourceTree = "<group>"; };
+		6E9D04F5156E7D0900C59921 /* sansun.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansun.caf; sourceTree = "<group>"; };
+		6EB7C0A01543F40200DD3A9D /* SQL_Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQL_Service.h; sourceTree = "<group>"; };
+		6EB7C0A11543F40200DD3A9D /* SQL_Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQL_Service.m; sourceTree = "<group>"; };
+		6EB7C0A71544246600DD3A9D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6EFFF20B14DC3EEE00F15F67 /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFFF20F14DC3EEE00F15F67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EFFF21114DC3EEE00F15F67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EFFF21314DC3EEE00F15F67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6EFFF21714DC3EEE00F15F67 /* Alarm-Info.plist */ = {isa = PBXFileReference; path = "Alarm-Info.plist"; sourceTree = "<group>"; };
+		6EFFF21714DC3EEE00F15F67 /* Alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alarm-Info.plist"; sourceTree = "<group>"; };
 		6EFFF21914DC3EEE00F15F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EFFF21B14DC3EEE00F15F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6EFFF21D14DC3EEE00F15F67 /* Alarm-Prefix.pch */ = {isa = PBXFileReference; path = "Alarm-Prefix.pch"; sourceTree = "<group>"; };
-		6EFFF21E14DC3EEE00F15F67 /* AlarmAppDelegate.h */ = {isa = PBXFileReference; path = AlarmAppDelegate.h; sourceTree = "<group>"; };
+		6EFFF21D14DC3EEE00F15F67 /* Alarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alarm-Prefix.pch"; sourceTree = "<group>"; };
+		6EFFF21E14DC3EEE00F15F67 /* AlarmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlarmAppDelegate.h; sourceTree = "<group>"; };
 		6EFFF21F14DC3EEE00F15F67 /* AlarmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmAppDelegate.m; sourceTree = "<group>"; };
 		6EFFF22214DC3EEE00F15F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		6EFFF22514DC3EEE00F15F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		6EFFF22714DC3EEE00F15F67 /* AlarmViewController.h */ = {isa = PBXFileReference; path = AlarmViewController.h; sourceTree = "<group>"; };
+		6EFFF22714DC3EEE00F15F67 /* AlarmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlarmViewController.h; sourceTree = "<group>"; };
 		6EFFF22814DC3EEE00F15F67 /* AlarmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+		6EFFF22F14DC427800F15F67 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		6EFFF23114DC42A300F15F67 /* wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrench.png; sourceTree = "<group>"; };
+		6EFFF23314DC42DA00F15F67 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		6EFFF23514DC449800F15F67 /* 3383574_113150433321_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3383574_113150433321_2.png; sourceTree = "<group>"; };
+		6EFFF23714DC46C100F15F67 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EFFF23814DC46C100F15F67 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EFFF23A14DC46E200F15F67 /* Total_ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Total_ClockViewController.h; sourceTree = "<group>"; };
+		6EFFF23B14DC46E200F15F67 /* Total_ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Total_ClockViewController.m; sourceTree = "<group>"; };
+		6EFFF23D14DC46F500F15F67 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		6EFFF23E14DC46F500F15F67 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		6EFFF24114DC472200F15F67 /* RepeatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatTableViewController.h; sourceTree = "<group>"; };
+		6EFFF24214DC472200F15F67 /* RepeatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatTableViewController.m; sourceTree = "<group>"; };
+		6EFFF24414DC473600F15F67 /* SoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTableViewController.h; sourceTree = "<group>"; };
+		6EFFF24514DC473600F15F67 /* SoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTableViewController.m; sourceTree = "<group>"; };
+		6EFFF24714DC474A00F15F67 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		6EFFF24814DC474A00F15F67 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		6EFFF24A14DC47D500F15F67 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		6EFFF24B14DC47D500F15F67 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB7C0A91544248800DD3A9D /* libsqlite3.dylib in Frameworks */,
 				6EFFF21014DC3EEE00F15F67 /* UIKit.framework in Frameworks */,
 				6EFFF21214DC3EEE00F15F67 /* Foundation.framework in Frameworks */,
 				6EFFF21414DC3EEE00F15F67 /* CoreGraphics.framework in Frameworks */,
@@ -49,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E9D04F6156E82CA00C59921 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				6E9D04F5156E7D0900C59921 /* sansun.caf */,
+			);
+			name = Resouce;
+			sourceTree = "<group>";
+		};
 		6EFFF20014DC3EED00F15F67 = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +116,10 @@
 		6EFFF20E14DC3EEE00F15F67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EFFF20F14DC3EEE00F15F67 /* UIKit.framework */,
-				6EFFF21114DC3EEE00F15F67 /* Foundation.framework */,
+				6EB7C0A71544246600DD3A9D /* libsqlite3.dylib */,
 				6EFFF21314DC3EEE00F15F67 /* CoreGraphics.framework */,
+				6EFFF21114DC3EEE00F15F67 /* Foundation.framework */,
+				6EFFF20F14DC3EEE00F15F67 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,9 +130,23 @@
 				6EFFF21E14DC3EEE00F15F67 /* AlarmAppDelegate.h */,
 				6EFFF21F14DC3EEE00F15F67 /* AlarmAppDelegate.m */,
 				6EFFF22114DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard */,
+				6E4C77C8156D3C8500C28637 /* TimeView.h */,
+				6E4C77C9156D3C8500C28637 /* TimeView.m */,
 				6EFFF22414DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard */,
 				6EFFF22714DC3EEE00F15F67 /* AlarmViewController.h */,
 				6EFFF22814DC3EEE00F15F67 /* AlarmViewController.m */,
+				6EFFF23714DC46C100F15F67 /* ViewController.h */,
+				6EFFF23814DC46C100F15F67 /* ViewController.m */,
+				6EFFF23A14DC46E200F15F67 /* Total_ClockViewController.h */,
+				6EFFF23B14DC46E200F15F67 /* Total_ClockViewController.m */,
+				6EFFF23D14DC46F500F15F67 /* SettingViewController.h */,
+				6EFFF23E14DC46F500F15F67 /* SettingViewController.m */,
+				6EFFF24A14DC47D500F15F67 /* DatePickerViewController.h */,
+				6EFFF24B14DC47D500F15F67 /* DatePickerViewController.m */,
+				6EB7C0A01543F40200DD3A9D /* SQL_Service.h */,
+				6EB7C0A11543F40200DD3A9D /* SQL_Service.m */,
+				6E9D04F6156E82CA00C59921 /* Resouce */,
+				6EFFF24014DC470100F15F67 /* SettingItemFile */,
 				6EFFF21614DC3EEE00F15F67 /* Supporting Files */,
 			);
 			path = Alarm;
@@ -93,12 +155,29 @@
 		6EFFF21614DC3EEE00F15F67 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EFFF22F14DC427800F15F67 /* clock.png */,
+				6EFFF23114DC42A300F15F67 /* wrench.png */,
+				6EFFF23314DC42DA00F15F67 /* calendar.png */,
+				6EFFF23514DC449800F15F67 /* 3383574_113150433321_2.png */,
 				6EFFF21714DC3EEE00F15F67 /* Alarm-Info.plist */,
 				6EFFF21814DC3EEE00F15F67 /* InfoPlist.strings */,
 				6EFFF21B14DC3EEE00F15F67 /* main.m */,
 				6EFFF21D14DC3EEE00F15F67 /* Alarm-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EFFF24014DC470100F15F67 /* SettingItemFile */ = {
+			isa = PBXGroup;
+			children = (
+				6EFFF24114DC472200F15F67 /* RepeatTableViewController.h */,
+				6EFFF24214DC472200F15F67 /* RepeatTableViewController.m */,
+				6EFFF24414DC473600F15F67 /* SoundTableViewController.h */,
+				6EFFF24514DC473600F15F67 /* SoundTableViewController.m */,
+				6EFFF24714DC474A00F15F67 /* LabelViewController.h */,
+				6EFFF24814DC474A00F15F67 /* LabelViewController.m */,
+			);
+			name = SettingItemFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +206,7 @@
 		6EFFF20214DC3EED00F15F67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 6EFFF20514DC3EED00F15F67 /* Build configuration list for PBXProject "Alarm" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -154,6 +233,10 @@
 				6EFFF21A14DC3EEE00F15F67 /* InfoPlist.strings in Resources */,
 				6EFFF22314DC3EEE00F15F67 /* MainStoryboard_iPhone.storyboard in Resources */,
 				6EFFF22614DC3EEE00F15F67 /* MainStoryboard_iPad.storyboard in Resources */,
+				6EFFF23014DC427800F15F67 /* clock.png in Resources */,
+				6EFFF23214DC42A300F15F67 /* wrench.png in Resources */,
+				6EFFF23414DC42DA00F15F67 /* calendar.png in Resources */,
+				6EFFF23614DC449800F15F67 /* 3383574_113150433321_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +250,15 @@
 				6EFFF21C14DC3EEE00F15F67 /* main.m in Sources */,
 				6EFFF22014DC3EEE00F15F67 /* AlarmAppDelegate.m in Sources */,
 				6EFFF22914DC3EEE00F15F67 /* AlarmViewController.m in Sources */,
+				6EFFF23914DC46C100F15F67 /* ViewController.m in Sources */,
+				6EFFF23C14DC46E200F15F67 /* Total_ClockViewController.m in Sources */,
+				6EFFF23F14DC46F500F15F67 /* SettingViewController.m in Sources */,
+				6EFFF24314DC472200F15F67 /* RepeatTableViewController.m in Sources */,
+				6EFFF24614DC473600F15F67 /* SoundTableViewController.m in Sources */,
+				6EFFF24914DC474A00F15F67 /* LabelViewController.m in Sources */,
+				6EFFF24C14DC47D500F15F67 /* DatePickerViewController.m in Sources */,
+				6EB7C0A21543F40200DD3A9D /* SQL_Service.m in Sources */,
+				6E4C77CA156D3C8500C28637 /* TimeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +298,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xu Wang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xu Wang";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -220,9 +313,12 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "C9613173-250E-4D2F-92FD-C2B8798942F1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C9613173-250E-4D2F-92FD-C2B8798942F1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -232,15 +328,18 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xu Wang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xu Wang";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C9613173-250E-4D2F-92FD-C2B8798942F1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C9613173-250E-4D2F-92FD-C2B8798942F1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -250,10 +349,19 @@
 		6EFFF22D14DC3EEE00F15F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alarm/Alarm-Prefix.pch";
 				INFOPLIST_FILE = "Alarm/Alarm-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,10 +369,18 @@
 		6EFFF22E14DC3EEE00F15F67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alarm/Alarm-Prefix.pch";
 				INFOPLIST_FILE = "Alarm/Alarm-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -279,7 +395,7 @@
 				6EFFF22B14DC3EEE00F15F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		6EFFF22C14DC3EEE00F15F67 /* Build configuration list for PBXNativeTarget "Alarm" */ = {
 			isa = XCConfigurationList;
@@ -288,6 +404,7 @@
 				6EFFF22E14DC3EEE00F15F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

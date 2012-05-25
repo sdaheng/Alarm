@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface AlarmViewController : UIViewController
+{
+    UILabel *TimeLabel;
+    NSDateFormatter *dateformatter;
+}
+@property (nonatomic,strong) IBOutlet UILabel *TimeLabel;
+@property (nonatomic,strong) NSDateFormatter  *dateformatter;
+
+- (void)updateTime;
 
 @end
